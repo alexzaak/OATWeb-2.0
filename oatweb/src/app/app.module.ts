@@ -10,11 +10,13 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SmsOverviewComponent } from './sms-overview/sms-overview.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    SmsOverviewComponent
   ],
   imports: [
     BrowserModule,
