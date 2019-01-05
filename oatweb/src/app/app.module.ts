@@ -11,12 +11,14 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SmsOverviewComponent } from './sms-overview/sms-overview.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    SmsOverviewComponent
+    SmsOverviewComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
